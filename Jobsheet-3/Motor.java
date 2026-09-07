@@ -35,12 +35,28 @@ public class Motor {
         return kecepatan;
     }
 
-    public void setKecepatan(int kecepatan) {
-        // this.kecepatan = kecepatan;
+    // public void setKecepatan(int kecepatan) {
+    // // this.kecepatan = kecepatan;
 
-        // penerapan enkapsulasi
-        if (!this.statusMesin && kecepatan > 0) {
+    // // penerapan enkapsulasi
+    // if (!this.statusMesin && kecepatan > 0) {
+    // System.out.println("Kecepatan tidak boleh lebih dari 0 jika mesin Off.");
+    // } else {
+    // this.kecepatan = kecepatan;
+    // }
+    // }
+
+    // Modif Batas Maksima 100 dan tidak boleh bernilai negatif
+    public void setKecepatan(int kecepatan) {
+        if (kecepatan < 0) {
+            // Kecepatan tidak boleh bernilai Negatif
+            System.out.println("Kecepatan tidak boleh bernilai negatif!");
+        } else if (!this.statusMesin && kecepatan > 0) {
             System.out.println("Kecepatan tidak boleh lebih dari 0 jika mesin Off.");
+        } else if (kecepatan > 100) {
+            // Maksimal Kecepatan 100
+            System.out.println("Kecepatan tidak boleh lebih dari 100.");
+            this.kecepatan = 100;
         } else {
             this.kecepatan = kecepatan;
         }
