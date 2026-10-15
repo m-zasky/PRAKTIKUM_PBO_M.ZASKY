@@ -9,8 +9,8 @@ public class Dosen16 extends Pegawai16 {
         // System.out.println("Ini constructor class Dosen yang berparameter");
 
         // modif construktor berparameter percobaan-7
-        super.nip = nip;
         super(nip, nama, gaji);
+        super.nip = nip;
         super.nama = nama;
         super.gaji = gaji;
         this.nidn = nidn;
