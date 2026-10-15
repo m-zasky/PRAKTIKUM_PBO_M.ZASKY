@@ -1,3 +1,4 @@
+package Percobaan;
 public class InheritanceDemo16 {
     public static void main(String[] args) {
         // Dosen16 dosen1 = new Dosen16();

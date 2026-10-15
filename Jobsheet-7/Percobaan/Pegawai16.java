@@ -1,3 +1,4 @@
+package Percobaan;
 public class Pegawai16 {
     public String nip;
     public String nama;

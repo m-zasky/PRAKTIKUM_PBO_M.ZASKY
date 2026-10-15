@@ -1,3 +1,4 @@
+package Percobaan;
 public class Dosen16 extends Pegawai16 {
     public String nidn;
 
