@@ -1,3 +1,4 @@
+package Percobaan;
 public class Lebah16 extends Hewan16 {
     public String kasta;
 

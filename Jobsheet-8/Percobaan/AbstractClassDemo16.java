@@ -1,3 +1,4 @@
+package Percobaan;
 public class AbstractClassDemo16 {
     public static void main(String[] args) {
         Hewan16 hewan1 = new Hewan16(10, "Rumput", "Savana");

@@ -1,3 +1,4 @@
+package Percobaan;
 public class Hewan16 {
     public double berat;
     public String makanan;
