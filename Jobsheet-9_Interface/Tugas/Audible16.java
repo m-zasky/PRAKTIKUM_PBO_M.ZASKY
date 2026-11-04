@@ -1,5 +1,5 @@
 package Tugas;
 
-public interface Audible {
+public interface Audible16 {
     void bersuara();
 }

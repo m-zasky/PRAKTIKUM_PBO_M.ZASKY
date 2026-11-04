@@ -1,9 +1,9 @@
 package Tugas;
 
-public class Kucing implements Audible {
+public class Kucing16 implements Audible16 {
     private String nama;
 
-    public Kucing(String nama) {
+    public Kucing16(String nama) {
         this.nama = nama;
     }
 
