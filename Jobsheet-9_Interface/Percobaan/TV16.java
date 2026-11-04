@@ -13,4 +13,9 @@ public class TV16 extends AlatElektronik16 implements Audible16 {
     public void turunkanVolume() {
         volume -= 1;
     }
+
+    @Override
+    public String getInfo() {
+        return super.getInfo() + ", Jenis Layar: " + jenisLayar + ", Volume: " + volume;
+    }
 }
