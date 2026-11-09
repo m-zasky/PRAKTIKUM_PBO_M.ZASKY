@@ -28,7 +28,11 @@ public class Demo {
         System.out.println(pegawai1.nip);
         System.out.println(pegawai1.nama);
         pegawai1.displayInfo();
+    
+        Dosen newDosen = (Dosen) pegawai1;
 
-        TenagaKependidikan test = (TenagaKependidikan) pegawai1;
+        System.out.println(newDosen.nama);
+        System.out.println(newDosen.nidn);
+        newDosen.mengajar();
     }
 }
