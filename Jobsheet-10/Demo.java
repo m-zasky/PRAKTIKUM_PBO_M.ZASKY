@@ -16,6 +16,11 @@ public class Demo {
         daftarPegawai.add(tendik1);
         daftarPegawai.add(tendik2);
 
-        System.out.println("Jumlah Pegawai: " + daftarPegawai.size());
+        // System.out.println("Jumlah Pegawai: " + daftarPegawai.size());
+
+        System.out.println(dosen1.nip);
+        System.out.println(dosen1.nama);
+        System.out.println(dosen1.nidn);
+        dosen1.mengajar();
     }
 }
