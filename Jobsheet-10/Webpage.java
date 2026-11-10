@@ -8,7 +8,7 @@ public class Webpage implements Printable {
         String temp = "URL: " + url;
         temp += "Title: " + title;
 
-        temp = content.replaceAll("<[^]*>", "");
+        temp = content.replaceAll("<[^>]*>", "");
         return temp;
     }
 
