@@ -6,11 +6,9 @@ public abstract class Furniture16 {
     public int tinggi;
     public String warna;
 
-    // Constructor 1: Tanpa parameter (Overloading)
     public Furniture16() {
     }
 
-    // Constructor 2: Berparameter (Overloading)
     public Furniture16(int lebar, int panjang, int tinggi, String warna) {
         this.lebar = lebar;
         this.panjang = panjang;
@@ -18,10 +16,8 @@ public abstract class Furniture16 {
         this.warna = warna;
     }
 
-    // Abstract method sesuai saran dosen
     public abstract void buat();
 
-    // Method yang akan di-override di subclass
     public void cetakInfo() {
         System.out.println("Lebar       : " + lebar + " cm");
         System.out.println("Panjang     : " + panjang + " cm");
