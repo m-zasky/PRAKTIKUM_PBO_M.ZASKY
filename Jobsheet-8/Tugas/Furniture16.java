@@ -6,9 +6,6 @@ public abstract class Furniture16 {
     public int tinggi;
     public String warna;
 
-    public Furniture16() {
-    }
-
     public Furniture16(int lebar, int panjang, int tinggi, String warna) {
         this.lebar = lebar;
         this.panjang = panjang;

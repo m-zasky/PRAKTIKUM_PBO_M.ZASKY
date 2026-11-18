@@ -3,10 +3,6 @@ package Tugas;
 public class Meja16 extends Furniture16 {
     public int jumlahKaki;
 
-    public Meja16() {
-        super();
-    }
-
     public Meja16(int lebar, int panjang, int tinggi, String warna, int jumlahKaki) {
         super(lebar, panjang, tinggi, warna);
         this.jumlahKaki = jumlahKaki;

@@ -3,10 +3,6 @@ package Tugas;
 public class Lemari16 extends Furniture16 {
     public int jumlahPintu;
 
-    public Lemari16() {
-        super();
-    }
-
     public Lemari16(int lebar, int panjang, int tinggi, String warna, int jumlahPintu) {
         super(lebar, panjang, tinggi, warna);
         this.jumlahPintu = jumlahPintu;
