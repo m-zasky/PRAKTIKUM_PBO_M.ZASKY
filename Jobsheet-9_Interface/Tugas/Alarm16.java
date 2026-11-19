@@ -1,10 +1,9 @@
 package Tugas;
 
-public class Alarm16 implements Audible16 {
-    private String tipe;
+public class Alarm16 extends AlatElektronik16 implements Audible16 {
 
     public Alarm16(String tipe) {
-        this.tipe = tipe;
+        super(tipe);
     }
 
     @Override

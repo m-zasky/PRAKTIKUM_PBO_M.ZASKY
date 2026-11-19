@@ -1,10 +1,9 @@
 package Tugas;
 
-public class Kucing16 implements Audible16 {
-    private String nama;
+public class Kucing16 extends Hewan16 implements Audible16 {
 
     public Kucing16(String nama) {
-        this.nama = nama;
+        super(nama);
     }
 
     @Override
