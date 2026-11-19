@@ -1,11 +1,11 @@
-import java.util.ArrayList; // Pastikan mengimpor kelas ArrayList
+import java.util.ArrayList; 
 
 public class NewDemo {
     public static void main(String[] args) {
         Webpage webpage1 = new Webpage();
         webpage1.title = "Jurusan Teknologi Informasi Polinema";
         webpage1.url = "https://jti.polinema.ac.id/";
-        webpage1.content = "<h1>Ini contoh heading</h1><br/>"; // (Catatan: tanda \ pada gambar diabaikan karena merupakan typo)
+        webpage1.content = "<h1>Ini contoh heading</h1><br/>"; 
 
         Document doc1 = new Document();
         doc1.fileName = "PBO 2024.docx";
